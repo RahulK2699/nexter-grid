@@ -1,0 +1,26 @@
+{
+  "name": "nexter-grid",
+  "version": "1.0.0",
+  "description": "Nexter webpage",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\"",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel compile:sass devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulK2699/nexter-grid.git"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulK2699/nexter-grid/issues"
+  },
+  "homepage": "https://github.com/RahulK2699/nexter-grid#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

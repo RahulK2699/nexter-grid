@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/RahulK2699/nexter-grid#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.17",
     "node-sass": "^9.0.0",
+    "nodemon": "^3.0.3",
     "npm-run-all": "^4.1.5"
   }
 }

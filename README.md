@@ -1,5 +1,5 @@
 # How to use
 
-nvm use 14
-npm install
-npm start
+- nvm use 16
+- npm install
+- npm start
